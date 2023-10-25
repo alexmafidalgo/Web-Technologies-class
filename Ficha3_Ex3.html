@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <label for="nome">Nome: </label>
+            <input id="nome" pattern="[A-Za-z]{3}" required type="text" placeholder="Insira o seu nome">
+            <br>
+            <label for="email">Email: </label>
+            <input id="email" required type="email" placeholder="Digite o seu email">
+            <br>
+            <label for="idade">Idade :</label>
+            <input id="idade" required type="number">
+            <br>
+            <label for="data">Data de nascimento:</label>
+            <input id="data" required type="date" placeholder="mm/dd/yyyy">
+            <br>
+            <label for="paises">Nacionalidade:</label>
+            <select id="paises">
+                <option value="Portugal">Portugal</option>
+                <option value="Espanha">Espanha</option>
+                <option value="França">França</option>
+                <option value="Italia">Italia</option>
+                <option value="Alemanha">Alemanha</option>
+            </select>
+            <br>
+            <label for="pass">Palavra-passe:</label>
+            <input id="pass" title="Palavra-passe deve conter 1 maiuscula; 1 minuscula; 8 ou mais carateres"
+            pattern="(?=.*[A-Z])(?=.*[a-z]).{6,}" required type="password" placeholder="Digite a sua palavra-passe">
+            <br>
+            <input type="submit" value="Submeter formulário">
+        </form>
+    </body>
+</html>
