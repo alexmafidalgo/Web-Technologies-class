@@ -1,0 +1,28 @@
+body{
+    font-family: "Raleway";
+    background-color: #070606;
+    margin: 120px 50px;
+}
+h1{
+    margin: 25px 0px;
+    color: #ffffff;
+    font-size: 70px;
+}
+p{
+    color: #bdbdbd;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+#button{
+    background-color: #2b892e;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border-style: none;
+    color: #ffffff;
+}
+img{
+    width: 70%;
+}
