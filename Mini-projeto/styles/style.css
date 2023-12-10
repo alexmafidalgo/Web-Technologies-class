@@ -1,0 +1,14 @@
+@import url(./homepage.css);
+@import url(./nav_bar.css);
+@import url(./filters.css);
+@import url(./product_grid.css);
+@import url(./products.css);
+
+body{
+    margin: 0px;
+    background-image: url("../assets/background-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

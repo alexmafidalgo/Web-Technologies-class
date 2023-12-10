@@ -1,0 +1,29 @@
+.product_image{
+    max-width: 15vw;
+    max-height: 15vw;
+    border-radius: 5px;
+}
+.product_area{
+    display: grid;
+    right: 0px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 48px 0px 0px 20px;
+    column-gap: 2vw;
+    row-gap: 25px;
+    padding: 5vw;
+    background-color: rgba(201, 240, 236, 0.5);
+}
+.product{
+    margin-top: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+h1.product{
+    font-size: 35px;
+    text-align: right;
+    color: rgb(110, 14, 8);
+    margin: 5px;
+}

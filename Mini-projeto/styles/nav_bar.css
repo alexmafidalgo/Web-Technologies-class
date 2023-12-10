@@ -1,0 +1,40 @@
+.nav_bar{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(207, 58, 68);
+}
+.search_bar{
+    background-image: url("../assets/magnifying_glass.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px center;
+    padding-left: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 30vw;
+    font-size: 16px;
+    font-weight: bold;
+}
+.right_links_div{
+    display: flex;
+    justify-content: right;
+}
+.nav_bar_links{
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(23, 184, 76);
+    margin: 5px;
+    border-radius: 10px;
+}
+#logo{
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+}

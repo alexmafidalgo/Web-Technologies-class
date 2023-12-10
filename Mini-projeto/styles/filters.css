@@ -1,0 +1,17 @@
+div.filters{
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: right;
+    left: 0px;
+    top: 48px;
+    width: 150px;
+    height: 333px;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 10px;
+    white-space: nowrap;
+}
+h1.filters{
+    text-align: left;
+    font-size: 20px;
+    margin: 10px;
+}
